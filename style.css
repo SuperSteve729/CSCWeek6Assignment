@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, blue, orange);
+}
+
+p {
+    color: orange;
+}
+
+#countDownTimer {
+    font-weight: bold;
+    color: olive;
+}
+
+.blinking {
+    animation: opacitySwitch 2s linear infinite;
+    color: yellow;
+}
+
+@keyframes opacitySwitch {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
